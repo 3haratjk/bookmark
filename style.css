@@ -378,9 +378,9 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    align-self: center;
     width: 100%;
-    padding: 2em;
+    padding: 1em;
     box-shadow: 5px 3px 10px #ddd;
     border-radius: 1em;
     margin: 2.5em 0;
@@ -408,6 +408,7 @@ hr{
     margin-top: 1em;
     border-radius: .5em;
     padding: .9em 1em;
+    width: 100%;
 }
 
 @media (min-width: 768px){
@@ -430,7 +431,10 @@ hr{
         align-items: center;
         width: 27.5%;
     }
-    .dCard h2{
+    .dCard h2, .dCard p{
+        width: 100%;
+    }
+    .dCard a{
         width: 100%;
     }
 
