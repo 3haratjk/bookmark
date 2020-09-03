@@ -159,14 +159,12 @@ a:hover{
 }
 
 .hero .bg{
-    background: var(--soft-blue);
     position: absolute;
-    height: 30%;
+    top: 10vh;
     width: 100%;
-    border-bottom-left-radius: 10em;
-    left: 20%;
-    bottom: 48%;
-    z-index: -10;
+    height: auto;
+    right: 0;
+    z-index: -2;
 }
 
 .hero-text{
@@ -224,14 +222,8 @@ a:hover{
         margin-left: 0;
     }
     .hero .bg{
-        background: var(--soft-blue);
-        position: absolute;
-        height: 40%;
-        width: 100%;
-        border-bottom-left-radius: 10em;
-        left: 60%;
-        bottom: 25%;
-        z-index: -10;
+        top: -5vh;
+        width: 60%;
     }
 }
 
